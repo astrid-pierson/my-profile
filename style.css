@@ -1,0 +1,119 @@
+/*Colors and fonts*/
+
+body{
+	background: #E9C8CE;
+	color: #F2D5DC;
+	font-family: Tw Cen MT;
+	font-size: 21px;
+}
+
+
+h1, h2{
+	color: #734158;
+}
+
+h1{
+	
+	font-family: 'Lilita One', cursive;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color:#F7F6CF ;
+}
+a:hover{
+	color:#734158 ;
+}
+ 
+
+/*id and class*/
+
+
+#profile-picture{
+	border-radius: 35%;
+	display: block;
+	margin:auto;
+}
+
+#container{
+    width: 850px;
+    margin: 30px auto;
+    text-align: justify;
+}
+
+@media(max-width:910px){
+	#container{
+ 	width:600px;
+	}
+}
+
+@media(max-width:600px){
+	#container{
+ 	width:500px;
+	}
+}
+
+@media(max-width:500px){
+	#container{
+ 	width:400px;
+	}
+}
+
+
+
+
+
+
+
+#card-presentation{
+    background: #C67F89;
+    padding: 40px;
+    margin: 30px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 15%);
+    border-radius: 20px;
+}
+
+.schoollink-center{
+	text-align: center;
+}
+#btn-violet{
+	background-color:#734158 ;
+	color:#F2D5DC;
+	padding: 15px 20px;
+	border-radius: 10px
+}
+#btn-violet:hover{
+	background-color:#A63760 ;
+	color:#F2D5DC;
+}
+
+.card-pink{
+	background: #C67F89;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+
+
+#social-center{
+	text-align: center;
+}
+.list-hor{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-hor li{
+	display: inline;
+	padding: 10px;
+}
+.list-hor i{
+	font-size: 50px;
+}
+.list-hor i:hover{
+	color:#C67F89 ;
+}
+
+
+
